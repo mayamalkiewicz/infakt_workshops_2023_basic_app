@@ -20,7 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_19_000129) do
 
   create_table "book_loans", force: :cascade do |t|
     t.string "status", default: "checked_out"
-    t.datetime "due_date", precision: nil
+    t.datetime "due_date"
     t.integer "book_id", null: false
     t.integer "user_id", null: false
     t.datetime "created_at", null: false
