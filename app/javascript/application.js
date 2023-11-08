@@ -1,8 +1,8 @@
 // Configure your import map in config/importmap.rb. Read more: https://github.com/rails/importmap-rails
 import "@hotwired/turbo-rails"
 import "controllers"
-import "popper";
 import "bootstrap";
+import "@popperjs/core"
 
 document.addEventListener("turbo:load", function () {
   // This code is copied from Bootstrap's docs. See link below.
