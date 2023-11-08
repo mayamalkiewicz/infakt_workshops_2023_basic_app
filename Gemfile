@@ -47,3 +47,5 @@ group :test do
 end
 
 gem 'hotwire-rails'
+
+gem 'kaminari'
